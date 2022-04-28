@@ -43,8 +43,8 @@
                         <p>ACORN works with physicians across all disciplines, and our team has experience in conducting clinical research in virtually every medical specialty. We specialize in helping research naïve medical staff become pillars of clinical research in their communities. Irrespective of your level of experience with clinical research, we offer the solutions to seamlessly integrate clinical research into your practice. Let us show you how we can make a difference for your patients, and how we can work together to accomplish your goals. </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div id="fp-img">
+                <div class="col-md-6 my-5 d-flex justify-content-center align-items-center">
+                    <div id="fp-img d-flex justify-content-center align-items-center">
                         <img class="img-fluid" src="assets/images/physicians/phy-1.png" alt="image">
                     </div>
                 </div>

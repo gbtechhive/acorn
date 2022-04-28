@@ -3,12 +3,12 @@
 3.0 ABOUT SECTION*/
 
 body {
-    /* font-family: "Montserrat", sans-serif; */
-}
+    font-family: "Montserrat", sans-serif;
+} 
 /* 1.HEADER */
 #navbarAcron .nav-item .nav-link {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 12px;
     letter-spacing: 0.01em;
     color: #2e2e2e;
 }
@@ -344,6 +344,27 @@ body {
     letter-spacing: 0.01em;
     color: #2e2e2e;
 }
+@media screen and (max-width: 992px) {
+    #joins{
+        display: none;
+    }
+    #about-us-r2 h2{
+        font-size: 13px;
+    }
+    #pri-organizatio, #clinical-research, #pri-smo, #clinical-cro {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:769px){
+    #about-us-r2 .col-md-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 /* ABOUT SECTION ENDS */
 
 /*******************************/
@@ -388,6 +409,7 @@ body {
     color: #fff;
     display: none;
     transition: 0.3s;
+    font: 15px;
 }
 
 .testimonial .testimonial-item h2 {
@@ -395,13 +417,8 @@ body {
     top: 150px;
     left: 50px;
     width: 70%;
-    /* color: #fff;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-    padding-bottom: 3px; */
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.01em;
     transition: 0.3s;
@@ -485,6 +502,18 @@ body {
     padding-left: 80px;
 }
 
+
+
+
+@media screen and (max-width: 769px) {
+    .testimonial .testimonial-item h2{
+        top: 246px;
+    }
+    .testimonial .testimonial-item p{
+        top: 198px;
+        font-size: 12px;
+    }
+}
 /* .testimonial .owl-nav .owl-prev:hover,
 .testimonial .owl-nav .owl-next:hover {
     color: #092a49;
@@ -629,11 +658,16 @@ body {
  ABOUT PAGE CSS 
  +================================*/
 #hereo-img-container {
-    background-image: url("../assets/images/about/h-img.png");
+    background: url("../assets/images/about/h-img.png");
+    /* background-size: 100%; */
+    background-size: cover;
+    /* background-image: url("../assets/images/about/h-img.png"); */
     width: 100%;
-    height: 60vh;
+    height: 64vh;
+    
     background-repeat: no-repeat;
-    background-size: "cover/center";
+    /* background-origin: border-box; */
+    background-position-x: center;
 }
 #ab-c1 {
     display: flex;
@@ -702,6 +736,7 @@ body {
 
     color: #2e2e2e;
 }
+
 /*+================================
  ABOUT PAGE CSS ENDS
  +================================*/

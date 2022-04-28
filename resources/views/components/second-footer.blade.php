@@ -22,7 +22,7 @@
             <div class="col-md-1"></div>
         </div> -->
         <div class="row mt-5">
-            <div class="col-md-4 d-flex align-items-center  ">
+            <div class="col-md-4 d-flex align-items-center  my-5">
                 <img src="assets/images/logo-1.png" class="img-fluid" alt="logo">
             </div>
             <div class="col-md-2" id="sm-col">
@@ -56,7 +56,8 @@
             </div>
             <div class="col-md-3 d-flex align-items-center justify-content-center">
                 <div id="map-footer">
-                    <img src="assets/images/footer/f-2.png" alt="image">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6996666.650926983!2d-104.57208388558512!3d31.100249188334125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas%2C%20USA!5e0!3m2!1sen!2s!4v1651030932045!5m2!1sen!2s" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    {{-- <img src="assets/images/footer/f-2.png" alt="image"> --}}
                 </div>
             </div>
         </div>

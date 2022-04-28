@@ -44,8 +44,8 @@
                         <p>With our experience you can be assured that we can safely and efficiently navigate the clinical research process. When delays or errors could mean termination of your investigational product before it even has a chance of making it to market, it is imperative that sponsors find a competent partner to handle their clinical research needs. Let us discuss how we can work together to accomplish your goals and provide personalized attention for your investigational product. See how our executive team’s hands on approach to every clinical trial can make a difference for you. </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div id="fp-img">
+                <div class="col-md-6 my-5 d-flex justify-content-center align-items-center">
+                    <div id="fp-img d-flex justify-content-center align-items-center">
                         <img class="img-fluid" src="assets/images/sponsers/spon-1.png" alt="image">
                     </div>
                 </div>
