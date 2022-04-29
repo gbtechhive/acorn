@@ -1,13 +1,14 @@
 /* 1.0 HEADER
 2.0 CAROUSEL 
 3.0 ABOUT SECTION*/
-
+html,
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
+    box-sizing: border-box !important;
 } 
 /* 1.HEADER */
 #navbarAcron .nav-item .nav-link {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.01em;
     color: #2e2e2e;
@@ -409,7 +410,6 @@ body {
     color: #fff;
     display: none;
     transition: 0.3s;
-    font: 15px;
 }
 
 .testimonial .testimonial-item h2 {
@@ -417,8 +417,13 @@ body {
     top: 150px;
     left: 50px;
     width: 70%;
+    /* color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-bottom: 3px; */
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 27px;
     letter-spacing: 0.01em;
     transition: 0.3s;
@@ -502,18 +507,6 @@ body {
     padding-left: 80px;
 }
 
-
-
-
-@media screen and (max-width: 769px) {
-    .testimonial .testimonial-item h2{
-        top: 246px;
-    }
-    .testimonial .testimonial-item p{
-        top: 198px;
-        font-size: 12px;
-    }
-}
 /* .testimonial .owl-nav .owl-prev:hover,
 .testimonial .owl-nav .owl-next:hover {
     color: #092a49;
@@ -545,6 +538,32 @@ body {
 .testimonial .owl-nav .owl-next:hover::after {
     background: #092a49;
 } */
+
+@media screen and (max-width:769px) {
+    .testimonial .testimonial-item h2{
+        top: 258px;
+    }
+    .testimonial .testimonial-item:hover h2{
+        top: 97px;
+    }
+    .testimonial .testimonial-item:hover p{
+        font-size: 12px;
+        top: 194px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .testimonial .owl-nav .owl-next{
+        /* padding-left: 19px;
+        width: unset !important; */
+        display: none;
+    }
+}
+@media screen and (max-width:356px) {
+    .testimonial .testimonial-item h2{
+        top: 225px;
+    }
+    
+}
 .section-header h2 {
     font-weight: 600;
     font-size: 34px;
@@ -557,6 +576,7 @@ body {
 
 /* FOOTER SECTION */
 #footer-container {
+    box-sizing: border-box !important;
     background-color: #0c093b;
     padding: 30px 0px 0px 0px;
 }
@@ -600,13 +620,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 #sm-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+    /* margin: o 49px; */
 }
 #sm-content h1,
 #contact-f h1 {
@@ -614,7 +635,6 @@ body {
     font-size: 22px;
     line-height: 27px;
     /* identical to box height */
-
     letter-spacing: 0.01em;
 
     color: #ffffff;
@@ -624,11 +644,14 @@ body {
 #contact-f p {
     margin-bottom: 20px;
     color: #fff;
+    word-break: break-word;
 }
 #sm-content i,
 #contact-f i {
     font-size: 25px;
 }
+
+
 #sm-content .fa-linkedin {
     color: #0077b5;
 }
@@ -654,6 +677,13 @@ body {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+    .center-map{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+}
 /*+================================
  ABOUT PAGE CSS 
  +================================*/
@@ -684,7 +714,6 @@ body {
     text-align: center;
     color: #ffffff;
 }
-
 #h-img-content p {
     font-weight: 600;
     font-size: 17px;
@@ -728,10 +757,8 @@ body {
     font-size: 15px;
     line-height: 138%;
     /* or 21px */
-
     text-align: justify;
     letter-spacing: 0.03em;
-
     /* Tertiary */
 
     color: #2e2e2e;
@@ -749,10 +776,21 @@ body {
 #h-img-sponsors,
 #h-img-contactus {
     background-image: url("../assets/images/patients/h-img.png");
-    width: 100%;
+    /* width: 100%;
     height: 60vh;
     background-size: cover/center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+
+    /* new */
+       /* background-size: 100%; */
+       background-size: cover;
+       /* background-image: url("../assets/images/about/h-img.png"); */
+       width: 100%;
+       height: 64vh;
+       
+       background-repeat: no-repeat;
+       /* background-origin: border-box; */
+       background-position-x: center;
 }
 #pat-r1-c1 {
     display: flex;
@@ -837,7 +875,9 @@ body {
  PHYSICIANS PAGE CSS 
  +================================*/
 #h-img-physicians {
-    background-image: url("../assets/images/physicians/h-img.png");
+    background-image: url(../assets/images/physicians/h-img.png);
+
+    /* background-image: url("../assets/images/physicians/h-img.png"); */
 }
 /*+================================
  PHYSICIANS PAGE CSS ENDS

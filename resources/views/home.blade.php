@@ -8,9 +8,9 @@
     <title>Acron</title>
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    {{-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
@@ -151,7 +151,7 @@
                             ">
                                 <div class="modal-header mt-5 d-flex justify-content-center aligin-items-center">
                                     <h3 class="modal-title text-white" id="ModalLabel">Send us a message </h3>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
                                 </div>
                                 <div class="modal-body mb-5">
                                     <form id="form">
@@ -200,7 +200,7 @@
     <div id="about-container">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 my-5" id="about-col-1">
+                <div class="col-md-6 my-2" id="about-col-1">
                     <div id="about-content">
                         <h1>About Us</h1>
                         <p>ACORN was launched to provide access to advanced clinical care for
@@ -217,14 +217,14 @@
                         <a href="" class="btn">learn More</a>
                     </div>
                 </div>
-                <div class="col-md-6 my-5">
+                <div class="col-md-6 my-2">
                     <div id="about-image">
                         <img src="assets/images/about/about-1.png" class="img-fluid" alt="image not found">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container my-2">
             <div class="row" id="about-us-r2">
                 <div class="col-md-3 mb-4">
                     <div id="pri-organizatio">
