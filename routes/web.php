@@ -6,6 +6,7 @@ use App\Http\Controllers\patientsController;
 use App\Http\Controllers\physiciansController;
 use App\Http\Controllers\sponsorsController;
 use App\Http\Controllers\contactusController;
+use App\Http\Controllers\bioBankingController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,3 +26,4 @@ Route::get('/patients', [patientsController::class, 'showPatients']);
 Route::get('/physicians', [physiciansController::class, 'showPhysicians']);
 Route::get('/sponsors', [sponsorsController::class, 'showSponsors']);
 Route::get('/contactus', [contactusController::class, 'showContactus']);
+Route::get('/bioBanking', [bioBankingController::class, 'showBioBanking']);

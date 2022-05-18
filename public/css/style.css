@@ -5,7 +5,7 @@ html,
 body {
     font-family: "Montserrat", sans-serif !important;
     box-sizing: border-box !important;
-} 
+}
 /* 1.HEADER */
 #navbarAcron .nav-item .nav-link {
     font-weight: 500;
@@ -346,21 +346,24 @@ body {
     color: #2e2e2e;
 }
 @media screen and (max-width: 992px) {
-    #joins{
+    #joins {
         display: none;
     }
-    #about-us-r2 h2{
+    #about-us-r2 h2 {
         font-size: 13px;
     }
-    #pri-organizatio, #clinical-research, #pri-smo, #clinical-cro {
+    #pri-organizatio,
+    #clinical-research,
+    #pri-smo,
+    #clinical-cro {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 }
-@media screen and (max-width:769px){
-    #about-us-r2 .col-md-3{
+@media screen and (max-width: 769px) {
+    #about-us-r2 .col-md-3 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -539,30 +542,29 @@ body {
     background: #092a49;
 } */
 
-@media screen and (max-width:769px) {
-    .testimonial .testimonial-item h2{
+@media screen and (max-width: 769px) {
+    .testimonial .testimonial-item h2 {
         top: 258px;
     }
-    .testimonial .testimonial-item:hover h2{
+    .testimonial .testimonial-item:hover h2 {
         top: 97px;
     }
-    .testimonial .testimonial-item:hover p{
+    .testimonial .testimonial-item:hover p {
         font-size: 12px;
         top: 194px;
     }
 }
 @media screen and (max-width: 400px) {
-    .testimonial .owl-nav .owl-next{
+    .testimonial .owl-nav .owl-next {
         /* padding-left: 19px;
         width: unset !important; */
         display: none;
     }
 }
-@media screen and (max-width:356px) {
-    .testimonial .testimonial-item h2{
+@media screen and (max-width: 356px) {
+    .testimonial .testimonial-item h2 {
         top: 225px;
     }
-    
 }
 .section-header h2 {
     font-weight: 600;
@@ -651,7 +653,6 @@ body {
     font-size: 25px;
 }
 
-
 #sm-content .fa-linkedin {
     color: #0077b5;
 }
@@ -678,7 +679,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .center-map{
+    .center-map {
         display: flex;
         justify-content: center;
         margin: 30px 0;
@@ -694,7 +695,7 @@ body {
     /* background-image: url("../assets/images/about/h-img.png"); */
     width: 100%;
     height: 64vh;
-    
+
     background-repeat: no-repeat;
     /* background-origin: border-box; */
     background-position-x: center;
@@ -782,15 +783,15 @@ body {
     background-repeat: no-repeat; */
 
     /* new */
-       /* background-size: 100%; */
-       background-size: cover;
-       /* background-image: url("../assets/images/about/h-img.png"); */
-       width: 100%;
-       height: 64vh;
-       
-       background-repeat: no-repeat;
-       /* background-origin: border-box; */
-       background-position-x: center;
+    /* background-size: 100%; */
+    background-size: cover;
+    /* background-image: url("../assets/images/about/h-img.png"); */
+    width: 100%;
+    height: 64vh;
+
+    background-repeat: no-repeat;
+    /* background-origin: border-box; */
+    background-position-x: center;
 }
 #pat-r1-c1 {
     display: flex;
@@ -907,3 +908,138 @@ body {
 /*+================================
  CONTACT US PAGE CSS ENDS
  +================================*/
+
+/* +================================
+ BIO BANKING PAGE CSS STARTS */
+
+/* hero img section */
+#h-img-bb {
+    background-image: url("../assets/images/bioBanking/h-img-bb.png");
+    background-size: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 64vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: 50px;
+}
+
+#bb-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 64vh;
+}
+#bb-content h1 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+
+#bb-content h4 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+/* bb About section  */
+#bb-about-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#bb-about-col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#bb-about-para p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 138%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #1c1c1c;
+    width: 90%;
+}
+
+/* samples section  */
+#bb-samples-container {
+    background-color: #b1f2f5;
+    padding: 20px 0px;
+}
+#bb-samples-col1 h1 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #1c1c1c;
+    text-align: center;
+}
+#bb-sample-r {
+    padding: 30px 0px;
+}
+#bb-sample-r .col-md-12 h2 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 138%;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.03em;
+    color: #1c1c1c;
+    width: 80%;
+}
+#bb-shipping-h {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #1c1c1c;
+}
+#bb-sbs-container {
+    background-color: #b1f2f5;
+    padding: 20px 0px;
+}
+#bb-ssbs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-top: 15px; */
+    width: 90%;
+    margin: auto;
+}
+#bb-ssbs p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 138%;
+    letter-spacing: 0.03em;
+    color: #1c1c1c;
+    margin: auto;
+    width: 85%;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 426px) and (max-width: 768px) {
+    #h-img-bb {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+    #h-img-bb {
+        margin-top: 10px;
+    }
+    #bb-ssbs {
+        margin-bottom: 20px;
+    }
+}
+/* BIO BANKING PAGE CSS ENDS
+ +================================ */
