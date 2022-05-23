@@ -1027,6 +1027,12 @@ body {
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #navbarAcron .nav-item .nav-link {
+        font-size: 7px;
+        font-weight: 700;
+    }
+}
 @media (min-width: 426px) and (max-width: 768px) {
     #h-img-bb {
         margin-top: 10px;
