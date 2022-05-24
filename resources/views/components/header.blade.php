@@ -38,7 +38,7 @@
           
         </ul>
           <form class="d-flex">
-              <button class="btn btn-primary me-2" type="button">become a research patient</button>
+              <a href="{{url('/patients')}}" class="btn btn-primary me-2" type="button">become a research patient</a>
           </form>
       </div>
     </div>

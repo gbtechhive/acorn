@@ -31,6 +31,7 @@ $(".testimonials-carousel").owlCarousel({
 var swiper = new Swiper(".product-slider", {
     spaceBetween: 30,
     effect: "fade",
+    autoplay: true,
     // initialSlide: 2,
     loop: false,
     navigation: {
