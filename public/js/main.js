@@ -9,8 +9,10 @@ $(".testimonials-carousel").owlCarousel({
     loop: true,
     nav: true,
     navText: [
-        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-        '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+        "<img src='./assets/images/next.png'>",
+        "<img src='./assets/images/prv.png'>"
+        // '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+        // '<i class="fa fa-angle-right" aria-hidden="true"></i>',
     ],
     responsive: {
         0: {

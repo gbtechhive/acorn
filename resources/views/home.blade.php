@@ -19,6 +19,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">    
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="shortcut icon" href="{{ asset('assets/images/favio.svg') }}" type="image/x-icon">
 </head>
 
 <body>
@@ -274,8 +275,6 @@
             </div>
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
-                    <img src="assets/images/slider/gr/gr-1.png" alt="Image">
-
                     <h2 id="asd">Wilcrest Community Medical Center</h2>
                     <p>
                         11226 S. Wilcrest Dr. Houston, TX 77099
@@ -286,9 +285,7 @@
                         (accepts patients until 4pm)
                     </p>
                 </div>
-                <div class="testimonial-item">
-                    <img src="assets/images/slider/gr/gr-2.png" alt="Image">
-
+                <div class="testimonial-item" id="asd">
                     <h2>Wilcrest Community Dental Center</h2>
                     <p>
                         11226 S. Wilcrest Dr. Houston, TX 77099
@@ -299,9 +296,7 @@
                         (accepts patients until 4pm)
                     </p>
                 </div>
-                <div class="testimonial-item">
-                    <img src="assets/images/slider/gr/gr-3.png" alt="Image">
-
+                <div class="testimonial-item" id="asd">
                     <h2>FBISD Ridgemont Elementary School</h2>
                     <p>
                         11226 S. Wilcrest Dr. Houston, TX 77099
@@ -313,8 +308,6 @@
                     </p>
                 </div>
                 <div class="testimonial-item">
-                    <img src="assets/images/slider/gr/gr-4.png" alt="Image">
-
                     <h2>Wilcrest Children’s Clinic</h2>
                     <p>
                         11226 S. Wilcrest Dr. Houston, TX 77099
@@ -326,7 +319,7 @@
                     </p>
                 </div>
                 <div class="testimonial-item">
-                    <img src="assets/images/slider/gr/gr-4.png" alt="Image">
+                    {{-- <img src="assets/images/slider/gr/gr-4.png" alt="Image"> --}}
 
                     <h2>Wilcrest Children’s Clinic</h2>
                     <p>
