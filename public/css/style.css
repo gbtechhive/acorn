@@ -398,17 +398,22 @@ body {
     background-repeat: no-repeat;
     background-position: 25% 40%;
 }
-.testimonials-carousel  .testimonial-item:nth-child(2){
+.testimonials-carousel  #t2{
     background-image: url(../assets/images/about/img2.png) !important;
     background-repeat: no-repeat;
 }
-.testimonials-carousel .testimonial-item:nth-child(3){
+.testimonials-carousel #t3{
     background-image: url(../assets/images/about/img3.svg) !important;
     background-repeat: no-repeat;
 }
-.testimonials-carousel  .testimonial-item:nth-child(2){
+.testimonials-carousel  #t4{
     background-image: url(../assets/images/about/img4.svg) !important;
     background-repeat: no-repeat;
+}
+ #t2:hover,
+ #t3:hover,
+ #t4:hover{
+    background-image: none !important;
 }
 
 .testimonial .testimonial-item p {

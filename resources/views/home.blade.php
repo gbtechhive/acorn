@@ -285,7 +285,7 @@
                         (accepts patients until 4pm)
                     </p>
                 </div>
-                <div class="testimonial-item" id="asd">
+                <div class="testimonial-item" id="t2">
                     <h2>Wilcrest Community Dental Center</h2>
                     <p>
                         11226 S. Wilcrest Dr. Houston, TX 77099
@@ -296,7 +296,7 @@
                         (accepts patients until 4pm)
                     </p>
                 </div>
-                <div class="testimonial-item" id="asd">
+                <div class="testimonial-item" id="t3">
                     <h2>FBISD Ridgemont Elementary School</h2>
                     <p>
                         11226 S. Wilcrest Dr. Houston, TX 77099
@@ -307,7 +307,7 @@
                         (accepts patients until 4pm)
                     </p>
                 </div>
-                <div class="testimonial-item">
+                <div class="testimonial-item" id="t4">
                     <h2>Wilcrest Children’s Clinic</h2>
                     <p>
                         11226 S. Wilcrest Dr. Houston, TX 77099
